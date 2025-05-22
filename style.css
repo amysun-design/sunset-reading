@@ -1,0 +1,59 @@
+body {
+    background-color: #9a5b41;
+    margin: 0;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    border: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-image {
+    width: 200px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.nav-items {
+    padding: 24px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-us-button {
+    width: 20%;
+    padding: 14px;
+    position: relative;
+    top: -20px;
+}
+
+@media (max-width: 768px) {
+
+}
