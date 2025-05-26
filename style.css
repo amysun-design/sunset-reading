@@ -81,6 +81,28 @@ button:hover {
     text-decoration: underline;
 }
 
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1); 
+    display: none;
+    position: absolute; 
+    top: 60px;
+    left: 380px;
+}
+
+.dropdown-items {
+    padding: 8px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-items:hover {
+    text-decoration: underline;
+}
+
 .hamburger-icon {
     width: 24px;
     position: absolute;
@@ -119,7 +141,7 @@ footer {
 }
 
 #amysun-img {
-    width: 25%;
+    width: 30%;
     border-radius: 16px;
     margin: 16px 16px 0 0;
     object-fit: cover;
