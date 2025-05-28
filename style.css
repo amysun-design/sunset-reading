@@ -37,6 +37,10 @@ button {
     width: fit-content;
 }
 
+button:hover {
+    background-color: #e3dad2;
+}
+
 .primary-btn {
     background-color: #edb786;
 }
@@ -49,10 +53,6 @@ button {
     margin-top: 16px;
 }
 
-button:hover {
-    background-color: #e3dad2;
-}
-
 .logo {
     display: flex;
     justify-content: center;
@@ -60,6 +60,10 @@ button:hover {
 
 #logo-image {
     width: 200px;
+}
+
+#logo-image:hover {
+    cursor: pointer;
 }
 
 .nav-links {
