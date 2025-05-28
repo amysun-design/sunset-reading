@@ -89,7 +89,11 @@ button:hover {
     display: none;
     position: absolute; 
     top: 60px;
-    left: 380px;
+    right: 24px;
+}
+
+.show {
+    display: flex;
 }
 
 .dropdown-items {
@@ -164,6 +168,10 @@ footer {
     color: white;
 }
 
+#newContent {
+    display: none;
+}
+
 @media (max-width: 599px) {
     .nav-links {
         display: none;
@@ -202,3 +210,5 @@ footer {
         width: 80%;
     }
 }
+
+/* add transition for dropdown menu */
