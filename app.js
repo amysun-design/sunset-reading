@@ -1,3 +1,5 @@
+// Hamburger menu dropdown
+
 const hamburgerIcon = document.querySelector(".hamburger-icon")
 const dropdownMenu = document.querySelector(".dropdown-menu")
 
@@ -5,6 +7,8 @@ hamburgerIcon.addEventListener("click", (e) => {
     dropdownMenu.classList.toggle("show")
 })
 
+
+// "Reviews" page
 
 const cardsContent = document.querySelector(".cards")
 const reviewsButton = document.querySelector("#reviewsButton")
@@ -15,6 +19,8 @@ reviewsButton.addEventListener("click", (e) => {
     newContent.style.display = "block"
 })
 
+
+// Logo takes user back to main page
 
 const logoImage = document.querySelector("#logo-image")
 
