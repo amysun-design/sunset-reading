@@ -19,6 +19,6 @@ reviewsButton.addEventListener("click", (e) => {
 const logoImage = document.querySelector("#logo-image")
 
 logoImage.addEventListener("click", (e) => {
-    cardsContent.style.display = "block"
+    cardsContent.style.display = "flex"
     newContent.style.display = "none"
 })

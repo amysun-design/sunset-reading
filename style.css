@@ -1,3 +1,5 @@
+/* Universal styling */
+
 body {
     background-color: #9a5b41;
     margin: 0;
@@ -10,6 +12,19 @@ p {
 
 img {
     width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo-image {
+    width: 200px;
+}
+
+#logo-image:hover {
+    cursor: pointer;
 }
 
 .card-img {
@@ -54,18 +69,47 @@ button:hover {
     margin-top: 16px;
 }
 
-.logo {
+
+/* Landing page styling */
+
+.welcome {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+    color: white;
 }
 
-#logo-image {
-    width: 200px;
+#welcome-copy {
+    margin-bottom: 40px;
+    font-size: 14px;
 }
 
-#logo-image:hover {
-    cursor: pointer;
+.welcome-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#welcome-btn {
+    position: unset;
+    background-color: #edb786;
+    margin-bottom: 40px;
+    transition: 0.3s;
+    width: calc(100vw - 80px);
+}
+
+#welcome-btn:hover {
+    background-color: #e3dad2;
+}
+
+#welcome-banner {
+    margin-bottom: 80px;
+}
+
+
+/* Main page navi styling */
 
 .nav-links {
     display: flex;
@@ -125,6 +169,9 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+/* Main page content styling */
+
 #hero-banner {
     display: flex;
     flex-direction: column;
@@ -138,6 +185,31 @@ button:hover {
     justify-content: space-around;
     align-items: center;
 }
+
+
+/* Main page "Reviews" content styling */
+
+#newContent {
+    margin: 40px;
+    display: none;
+}
+
+.review {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.review-images {
+    width: 200px;
+    margin-right: 24px;
+}
+
+.book-title {
+    margin-top: 0;
+}
+
+
+/* Main page footer styling */
 
 footer {
     background-color: white;
@@ -172,9 +244,8 @@ footer {
     color: white;
 }
 
-#newContent {
-    display: none;
-}
+
+/* Media queries */
 
 @media (max-width: 599px) {
     .nav-links {
@@ -188,9 +259,6 @@ footer {
     }
     .dropdown-menu {
         display: none;
-    }
-    .primary-btn {
-        width: 20%;
     }
     footer {
         display: flex;
@@ -217,5 +285,3 @@ footer {
         width: 80%;
     }
 }
-
-/* add transition for dropdown menu */
